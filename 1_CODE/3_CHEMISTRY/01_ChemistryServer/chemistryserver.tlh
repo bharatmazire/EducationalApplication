@@ -1,0 +1,123 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.14.26431.0 (30821ae1).
+//
+// c:\myvisualstudio2017projects\01-win32\01-window\ide\bharat_mazire_win32_assignments\project\dllforproject\chemistry\chemistryserver\chemistryserver.tlh
+//
+// C++ source equivalent of Win32 type library ChemistryServer.tlb
+// compiler-generated file created 12/02/18 at 14:42:22 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("c529a45e-47f1-3320-9264-6cfbad7f1caa"))
+/* LIBID */ __ChemistryServer;
+struct __declspec(uuid("49bbb9fb-669e-3946-ba33-ae722fbcaac2"))
+/* dual interface */ IChem;
+struct /* coclass */ Chemistry;
+struct __declspec(uuid("f81b621f-b2b8-3400-9021-f32ce06460c9"))
+/* dual interface */ _Chemistry;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IChem, __uuidof(IChem));
+_COM_SMARTPTR_TYPEDEF(_Chemistry, __uuidof(_Chemistry));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("49bbb9fb-669e-3946-ba33-ae722fbcaac2"))
+IChem : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_HeatVal (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_HeatVal (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall get_RefVal (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_RefVal (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall get_ACVal (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_ACVal (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall HeatCalculation (
+        /*[in]*/ double w,
+        /*[in]*/ double q1,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall RefCalculation (
+        /*[in]*/ double q2,
+        /*[in]*/ double w,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall ACCalculation (
+        /*[in]*/ double q1,
+        /*[in]*/ double w,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("0e99f018-f878-3a93-930a-c500ed96911b"))
+Chemistry;
+    // [ default ] interface _Chemistry
+    // interface _Object
+    // interface IChem
+
+struct __declspec(uuid("f81b621f-b2b8-3400-9021-f32ce06460c9"))
+_Chemistry : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ToString (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall Equals (
+        /*[in]*/ VARIANT obj,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetHashCode (
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetType (
+        /*[out,retval]*/ struct _Type * * pRetVal ) = 0;
+      virtual HRESULT __stdcall get_HeatVal (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_HeatVal (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall get_RefVal (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_RefVal (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall get_ACVal (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_ACVal (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall HeatCalculation (
+        /*[in]*/ double w,
+        /*[in]*/ double q1,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall RefCalculation (
+        /*[in]*/ double q2,
+        /*[in]*/ double w,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall ACCalculation (
+        /*[in]*/ double q1,
+        /*[in]*/ double w,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+};
+
+#pragma pack(pop)

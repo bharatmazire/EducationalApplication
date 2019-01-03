@@ -1,0 +1,4 @@
+LIBRARY ChemistryServerLoader
+EXPORTS
+	ChemistryCalculation 
+

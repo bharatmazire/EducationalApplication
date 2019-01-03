@@ -1,0 +1,5 @@
+.exe -> .abc
+.dll -> .abc1
+.lib -> .abc2
+.rc  -> .abc3
+.res -> .abc4
