@@ -1,8 +1,5 @@
-# EducationalApplication
-
+# Educational Application
 ___
-
-Educational Application in Win32 SDK
 
 ![Image of SDK Project1](https://github.com/bharatmazire/EducationalApplication/blob/master/2_SCREENSHOTS/BHARAT_MAZIRE_SPLASH_SCREEN.PNG)
 
